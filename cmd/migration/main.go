@@ -6,8 +6,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/ribice/gorsk"
-	"github.com/ribice/gorsk/pkg/utl/secure"
+	gorsk "github.com/senior-project-ai-content-tagging/general-backend-go"
+	"github.com/senior-project-ai-content-tagging/general-backend-go/pkg/utl/secure"
 
 	"github.com/go-pg/pg/v9"
 	"github.com/go-pg/pg/v9/orm"

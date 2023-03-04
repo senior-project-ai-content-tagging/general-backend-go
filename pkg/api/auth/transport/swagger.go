@@ -1,9 +1,5 @@
 package transport
 
-import (
-	"github.com/ribice/gorsk"
-)
-
 // Login request
 // swagger:parameters login
 type swaggLoginReq struct {

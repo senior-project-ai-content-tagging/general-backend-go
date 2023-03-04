@@ -3,7 +3,7 @@ package gorsk_test
 import (
 	"testing"
 
-	"github.com/ribice/gorsk"
+	gorsk "github.com/senior-project-ai-content-tagging/general-backend-go"
 )
 
 func TestChangePassword(t *testing.T) {

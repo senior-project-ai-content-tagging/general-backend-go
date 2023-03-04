@@ -3,9 +3,9 @@ package main
 import (
 	"flag"
 
-	"github.com/ribice/gorsk/pkg/api"
+	"github.com/senior-project-ai-content-tagging/general-backend-go/pkg/api"
 
-	"github.com/ribice/gorsk/pkg/utl/config"
+	"github.com/senior-project-ai-content-tagging/general-backend-go/pkg/utl/config"
 )
 
 func main() {

@@ -3,14 +3,14 @@ package password_test
 import (
 	"testing"
 
-	"github.com/ribice/gorsk"
-	"github.com/ribice/gorsk/pkg/api/password"
+	gorsk "github.com/senior-project-ai-content-tagging/general-backend-go"
+	"github.com/senior-project-ai-content-tagging/general-backend-go/pkg/api/password"
 
 	"github.com/go-pg/pg/v9/orm"
 	"github.com/labstack/echo"
 
-	"github.com/ribice/gorsk/pkg/utl/mock"
-	"github.com/ribice/gorsk/pkg/utl/mock/mockdb"
+	"github.com/senior-project-ai-content-tagging/general-backend-go/pkg/utl/mock"
+	"github.com/senior-project-ai-content-tagging/general-backend-go/pkg/utl/mock/mockdb"
 
 	"github.com/stretchr/testify/assert"
 )

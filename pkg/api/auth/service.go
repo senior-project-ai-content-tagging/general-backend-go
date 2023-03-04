@@ -5,8 +5,8 @@ import (
 	"github.com/go-pg/pg/v9/orm"
 	"github.com/labstack/echo"
 
-	"github.com/ribice/gorsk"
-	"github.com/ribice/gorsk/pkg/api/auth/platform/pgsql"
+	gorsk "github.com/senior-project-ai-content-tagging/general-backend-go"
+	"github.com/senior-project-ai-content-tagging/general-backend-go/pkg/api/auth/platform/pgsql"
 )
 
 // New creates new iam service

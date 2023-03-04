@@ -9,14 +9,14 @@ import (
 
 	"github.com/labstack/echo"
 
-	"github.com/ribice/gorsk"
-	"github.com/ribice/gorsk/pkg/api/auth"
-	"github.com/ribice/gorsk/pkg/api/auth/transport"
-	"github.com/ribice/gorsk/pkg/utl/jwt"
-	authMw "github.com/ribice/gorsk/pkg/utl/middleware/auth"
-	"github.com/ribice/gorsk/pkg/utl/mock"
-	"github.com/ribice/gorsk/pkg/utl/mock/mockdb"
-	"github.com/ribice/gorsk/pkg/utl/server"
+	gorsk "github.com/senior-project-ai-content-tagging/general-backend-go"
+	"github.com/senior-project-ai-content-tagging/general-backend-go/pkg/api/auth"
+	"github.com/senior-project-ai-content-tagging/general-backend-go/pkg/api/auth/transport"
+	"github.com/senior-project-ai-content-tagging/general-backend-go/pkg/utl/jwt"
+	authMw "github.com/senior-project-ai-content-tagging/general-backend-go/pkg/utl/middleware/auth"
+	"github.com/senior-project-ai-content-tagging/general-backend-go/pkg/utl/mock"
+	"github.com/senior-project-ai-content-tagging/general-backend-go/pkg/utl/mock/mockdb"
+	"github.com/senior-project-ai-content-tagging/general-backend-go/pkg/utl/server"
 
 	"github.com/go-pg/pg/v9/orm"
 	"github.com/stretchr/testify/assert"

@@ -1,6 +1,6 @@
-module github.com/ribice/gorsk
+module github.com/senior-project-ai-content-tagging/general-backend-go
 
-go 1.14
+go 1.18
 
 require (
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible

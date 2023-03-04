@@ -3,7 +3,7 @@ package transport
 import (
 	"net/http"
 
-	"github.com/ribice/gorsk/pkg/api/auth"
+	"github.com/senior-project-ai-content-tagging/general-backend-go/pkg/api/auth"
 
 	"github.com/labstack/echo"
 )

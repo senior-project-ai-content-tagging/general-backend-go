@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/ribice/gorsk"
-	"github.com/ribice/gorsk/pkg/utl/mock"
+	gorsk "github.com/senior-project-ai-content-tagging/general-backend-go"
+	"github.com/senior-project-ai-content-tagging/general-backend-go/pkg/utl/mock"
 )
 
 func TestBeforeInsert(t *testing.T) {

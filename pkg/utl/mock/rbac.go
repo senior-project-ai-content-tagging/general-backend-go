@@ -3,7 +3,7 @@ package mock
 import (
 	"github.com/labstack/echo"
 
-	"github.com/ribice/gorsk"
+	gorsk "github.com/senior-project-ai-content-tagging/general-backend-go"
 )
 
 // RBAC Mock
